@@ -29,7 +29,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Women's World Cup</h1>
-        <PlayerList />
+        <PlayerList apiData={this.state.playerData} />
       </div>
     );
   }
