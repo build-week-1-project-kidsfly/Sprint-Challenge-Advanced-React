@@ -38,10 +38,14 @@ body {
   background: rgb(47,92,238);
   background: linear-gradient(180deg, rgba(47,92,238,1) 10%, rgba(62,230,226,1) 50%, rgba(47,92,238,1) 90%);
 }
+h1 {
+  color: white;
+}
 .eachBox {
   border: 1px solid white;
   border-radius: 5px;
   background-color: dodgerblue;
   width: 30%;
   margin: 10px auto 10px auto;
+  color: white;
 }
