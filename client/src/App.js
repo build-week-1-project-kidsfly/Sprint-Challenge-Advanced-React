@@ -1,6 +1,9 @@
 import React from "react";
 import axios from "axios";
+
+// Components
 import PlayerList from "./components/PlayerList";
+import Title from "./components/Title";
 
 //Styling
 import "./App.css";
@@ -28,7 +31,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Women's World Cup</h1>
+        <Title/>
         <PlayerList apiData={this.state.playerData} />
       </div>
     );

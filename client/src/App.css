@@ -49,3 +49,10 @@ h1 {
   margin: 10px auto 10px auto;
   color: white;
 }
+.titleDiv {
+  width: 20%;
+  margin: 30px auto 30px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
