@@ -1,5 +1,14 @@
 import React, { useState } from "react";
 
+export const useConsoleState = initialValue => {
+  const [value, setValue] = useState(initialValue)
+  const newValue = valor => {
+    setValue(valor)
+    console.log(valor)
+  }
+  return [value, newValue];
+}
+
 export const useInput = initialValue => {
   const [value, setValue] = useState(initialValue);
   const handleChanges = updatedValue => {

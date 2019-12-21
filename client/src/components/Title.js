@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { useInput, useLocalStorage } from "../utils/TitleHook";
+import React from "react";
+import { useConsoleState, useInput } from "../utils/TitleHook";
 
 const Title = () => {
-  const [title, setTitle] = useState("Womwen's Word Coop");
+  const [title, setTitle] = useConsoleState("Womwen's Word Coop");
   const [inputText, setInputText, handleChanges] = useInput("");
 
   const changeTitle = e => {

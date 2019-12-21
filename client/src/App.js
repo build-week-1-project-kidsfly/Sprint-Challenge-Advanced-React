@@ -31,7 +31,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Title/>
+        <Title />
         <PlayerList apiData={this.state.playerData} />
       </div>
     );
